@@ -1,0 +1,23 @@
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.sitemap {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.site-item {
+    align-self: center;
+    width: 135px;
+    /* default 1 */
+}
+
+.gold {
+    color: rgb(0, 63, 100) !important;
+}

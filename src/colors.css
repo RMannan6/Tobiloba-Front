@@ -1,0 +1,50 @@
+.jdorsey {
+    background-color: #1d4f66d3 !important;
+}
+
+.volcano {
+    background-color: #661d1dd3 !important;
+}
+
+.pearl {
+    background-color: #ffffffd3 !important;
+}
+
+.grass-text {
+    color: rgb(34, 129, 55) !important;
+}
+
+.gold-text {
+    color: rgb(189, 177, 15) !important;
+}
+
+.volcano-text {
+    color: #862626d3 !important;
+}
+
+.bold {
+    font-weight: 600 !important;
+}
+
+.coal-text {
+    color: rgb(68, 68, 67) !important;
+}
+
+p.a {
+    font-style: normal;
+}
+
+.descriptor-text {
+    font-style: italic !important;
+    color: rgb(112, 112, 111) !important;
+    line-height: 0.9em !important;
+    font-size: smaller !important;
+}
+
+p.c {
+    font-style: oblique;
+}
+
+h6 {
+    color: rgb(8, 52, 88) !important;
+}

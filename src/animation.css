@@ -1,0 +1,26 @@
+.dOSGuI {
+    display: inline-block;
+    animation: 20s linear 0s infinite reverse none running beritext;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: beritext;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+}
+
+@keyframes beritext {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(60%);
+    }
+}
