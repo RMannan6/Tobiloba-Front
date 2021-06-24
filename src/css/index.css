@@ -1,0 +1,365 @@
+@import "./global.css";
+@import "./animation.css";
+@import "./colors.css";
+.ant-card-bordered,
+.ant-card-actions {
+    -moz-box-shadow: inset 4px 0px 18px #050505;
+    -webkit-box-shadow: inset 4px 0px 18px #050505;
+    box-shadow: inset 4px 0px 18px #050505;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    display: inline !important;
+    align-items: end !important;
+}
+
+.cls-1 {
+    fill: #635bff;
+}
+
+@media screen and (max-width: 480px) {
+    .table th,
+    .table td {
+        width: 460px !important;
+        height: auto !important;
+        padding: 10px !important;
+        border-top: none !important;
+        white-space: break-word !important;
+        font-size: x-small !important;
+    }
+}
+
+.ant-btn-round.ant-btn-sm {
+    font-size: x-small !important;
+    text-overflow: ellipsis !important;
+    /* Required for text-overflow to do anything */
+    white-space: nowrap !important;
+    overflow: hidden !important;
+}
+
+.fixed {
+    position: fixed !important;
+}
+
+.long {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.ocean-blue {
+    background-image: linear-gradient( 315deg, #63a4ff60 0%, #83eaf162 74%) !important;
+    background-image: webkit-linear-gradient( 315deg, #63a4ff60 0%, #83eaf162 74%) !important;
+    height: 75vh !important;
+    width: 100vw !important;
+}
+
+main {
+    position: relative;
+    display: block;
+    top: 50px;
+    padding-bottom: 2rem;
+    backdrop-filter: blur(2px);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: auto;
+    -webkit-box-shadow: inset 12px 29px 81px 0px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: inset 12px 29px 81px 0px rgba(0, 0, 0, 0.75) !important;
+    box-shadow: inset 12px 29px 81px 0px rgba(0, 0, 0, 0.75) !important;
+}
+
+.ant-drawer-title {
+    color: rgb(124, 204, 250) !important;
+    font-weight: 200 !important;
+}
+
+.ant-drawer-header {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+.ant-drawer-content {
+    background-color: transparent !important;
+}
+
+.jumbotron {
+    background-color: transparent !important;
+    z-index: 10;
+    padding: 10px;
+    -moz-box-shadow: 0px 0px 9px #a7a7a7;
+    -webkit-box-shadow: 0px 0px 9px #a7a7a7;
+    box-shadow: 0px 0px 9px #a7a7a7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+//typography
+.huge-text {
+    font-size: 4rem !important;
+}
+
+.xsmall-text {
+    font-size: x-small !important;
+}
+
+.small-text {
+    font-size: small !important;
+}
+
+div.ant-back-top {
+    bottom: 100px !important;
+}
+
+div.ant-back-top-inner {
+    height: 40px !important;
+    width: 40px !important;
+    line-height: 40px !important;
+    border-radius: 4px !important;
+    background-color: #1088e9 !important;
+    color: #fff !important;
+    text-align: center !important;
+    font-size: 20px !important;
+}
+
+.filters {
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+    /* For IE 8*/
+    -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#c2b4ff22, endColorstr=#5f84ff22);
+}
+
+div.bg-dark.carousel.slide {
+    border-radius: 50px;
+}
+
+div.ant-card {
+    background: transparent;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color: #0f2a44bd !important;
+}
+
+.ant-menu {
+    background-color: #000000 !important;
+    background-image: linear-gradient( 147deg, #000000bd 0%, #0021369f 74%) !important;
+}
+
+.ant-menu-dark.ant-menu-horizontal>.ant-menu-item:hover {
+    background: #073d5f62 74% !important;
+    background-color: #073d5f62 74% !important;
+}
+
+div.container {
+    position: relative;
+    top: 50px;
+    background: linear-gradient(147deg, #f0f7ffd0 0%, #01101dc9 74%) !important;
+    background-color: #073d5f62 74% !important;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75) !important;
+    box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75) !important;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    min-height: 10vh;
+}
+
+div.container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+div.container-bright {
+    background: linear-gradient(147deg, #f0f3ff9a 0%, #2d2e304d 74%) !important;
+    background-color: #ffffff48 74% !important;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+    /* For IE 8*/
+    -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+    z-index: 10;
+    position: relative;
+    margin: auto !important;
+    -moz-box-shadow: inset 2px 0px 12px #2c2c2c;
+    -webkit-box-shadow: inset 2px 0px 12px #2c2c2c;
+    box-shadow: inset 2px 0px 12px #2c2c2c;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+div.container-translucent {
+    background: linear-gradient(147deg, #ffffff 0%, #ffffff8a 74%) !important;
+    background-color: #ffffff79 74% !important;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+    /* For IE 8*/
+    -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+    z-index: 10;
+    position: relative;
+    margin: auto !important;
+    -moz-box-shadow: inset 2px 0px 12px #b6b6b6;
+    -webkit-box-shadow: inset 2px 0px 12px #b6b6b6;
+    box-shadow: inset 2px 0px 12px #b6b6b6;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+// drawer footer
+.drawer-footer {
+    color: rgb(245, 245, 245) !important;
+}
+
+div.container-ocean {
+    background: #132f49 !important;
+    color: rgb(245, 245, 245) !important;
+    background-color: #2a364e4d 74% !important;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+    /* For IE 8*/
+    -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+    z-index: 10;
+    position: relative;
+    margin: auto !important;
+    -moz-box-shadow: inset 0 0 6px rgb(141 141 141 / 30%);
+    -webkit-box-shadow: inset 0 0 6px rgb(141 141 141 / 30%);
+    box-shadow: inset 0 0 6px rgb(141 141 141 / 30%);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+div.ant-card-meta-title {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin: auto;
+    word-break: keep-all;
+    font-weight: 500 !important;
+    font-size: large !important;
+}
+
+div.ant-card-meta-description {
+    color: rgb(36, 36, 36);
+    width: 100%;
+    margin: auto;
+    font-weight: 300 !important;
+    font-size: small !important;
+}
+
+.med-font {
+    font-size: small !important;
+}
+
+svg:hover,
+svg:active {
+    filter: brightness(80%);
+    transform: scale(1.2);
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    height: auto;
+    margin: auto;
+    cursor: crosshair;
+}
+
+li.slide:hover,
+li.slide:active {
+    filter: brightness(80%);
+    transform: scale(1.2);
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    height: auto;
+    margin: auto;
+    cursor: crosshair;
+}
+
+ul.ant-card-actions {
+    background: transparent;
+}
+
+.ant-card-meta-description {
+    font-size: 1em;
+    font-weight: 500;
+    color: rgb(36, 36, 36) !important;
+    width: 80%;
+    margin: auto;
+}
+
+div.ant-card-meta-title {
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: -0.5rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.75) !important;
+}
+
+//SingleProduct.js
+.anticon-cloud-upload svg {
+    color: rgba(0, 0, 0, 0.75) !important;
+}
+
+code {
+    color: rgba(226, 226, 226, 0.815) !important;
+    background-color: #09052ccb !important;
+    -moz-box-shadow: 2px 0px 12px #2c2c2c !important;
+    -webkit-box-shadow: 2px 0px 12px #2c2c2c !important;
+    box-shadow: 2px 0px 12px #2c2c2c !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+}
+
+.ant-card-actions>li,
+.ant-card-actions>li,
+.ant-card-actions>li>span a:not(.ant-btn),
+.ant-card-actions>li>span a:not(.ant-btn) {
+    color: rgb(255, 255, 255);
+}
+
+span.ant-typography {
+    color: rgb(245, 245, 245);
+}
+
+span.ant-badge {
+    color: #b6b6b6 !important;
+}
+
+.isomorph-i {
+    -moz-box-shadow: inset 2px 0px 12px #b6b6b6 !important;
+    -webkit-box-shadow: inset 2px 0px 12px #b6b6b6 !important;
+    box-shadow: inset 2px 0px 12px #b6b6b6 !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    border-radius: 12px !important;
+}
+
+.isomorph-o {
+    -moz-box-shadow: 2px 0px 12px #b6b6b6 !important;
+    -webkit-box-shadow: 2px 0px 12px #b6b6b6 !important;
+    box-shadow: 2px 0px 12px #b6b6b6 !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    border-radius: 12px !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+div.__react_modal_image__modal_container {
+    width: 100vw !important;
+    height: 100vh !important;
+    display: block !important;
+    transform: translate(-2.3%, -16%) !important;
+}
+
+div.ant-drawer-body {
+    background-color: rgb(0, 0, 0) !important;
+    opacity: 0.9 !important;
+}
