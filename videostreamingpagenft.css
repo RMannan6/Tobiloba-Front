@@ -87,3 +87,7 @@ body
 .series img:hover{
 	transform: translateY(-10px);
 }
+
+.col-6 {
+	height: 350px;
+}
