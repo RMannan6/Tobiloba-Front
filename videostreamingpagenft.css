@@ -9,6 +9,14 @@ body
 	background-position: center;
 	background-size: cover;
 }
+
+h4 
+{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color:rgb(71, 71, 71);
+	font-weight: 500;
+}
+
 .logo
 {
 	width: 100px;
