@@ -5,7 +5,7 @@
 }
 body
 {
-	background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,0.7)),url(image/movie-icon.jpg);
+	background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,0.7)),url(image/background.jpg);
 	background-position: center;
 	background-size: cover;
 }
